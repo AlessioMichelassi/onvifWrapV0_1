@@ -9,10 +9,12 @@ setup(
     long_description_content_type='text/markdown',
     author='Alessio Michelassi',
     author_email='alessio.michelassi@gmail.com',
-    url='',
+    url='https://github.com/AlessioMichelassi/onvifWrapV0_1',
     install_requires=[
-        # elenca qui le dipendenze del tuo package, ad esempio
-        # 'numpy',
+        'onvif-zeep',
+        'PyQt6',
+        'PyQt6-sip',
+        'PyQt6-Qt6',
     ],
     classifiers=[
         # Classificatori per PyPI
